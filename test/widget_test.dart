@@ -27,4 +27,27 @@ void main() {
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
+
+
+
+// testWidgets('Test Form', (WidgetTester tester) async {
+//   await tester.pumpWidget(MyApp());
+//   final Finder nickname = find.widgetWithText(TextFormField, 'Nickname');
+//   final Finder fullName = find.widgetWithText(TextFormField, 'Full name');
+//   final Finder submit = find.widgetWithText(OutlineButton, 'Register');
+
+//   expect(find.text('Form submitted'), findsNothing);
+
+//   await tester.enterText(nickname, 'Ahmed');
+//   await tester.enterText(fullName, 'Ahmed Abu Eldahab');
+
+//   await tester.tap(submit);
+//   await tester.pump();
+
+//   expect(find.text('Form submitted!'), findsOneWidget);
+// });
+
+
 }
+
+
